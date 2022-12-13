@@ -4,7 +4,7 @@ int main()
     int n, i, j, s = 0, pattern = 0;
     scanf("%d", &n);
  /*
- No of rows of pattern 
+ Here it shows the numbr of rows of pattern 
  */
     for(i = 0; i < n; i++)
     {
@@ -14,7 +14,7 @@ int main()
             printf(" ");
         }
   
-  /*We are going to print no. of space minus 1 each time */
+  /*Prinitng no. of space minus 1 each time */
         pattern = i + 1;
   
         for(j = 0; j < pattern; j++)
