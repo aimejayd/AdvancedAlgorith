@@ -17,9 +17,7 @@ def lilysHomework(arr):
 
 
 def minSwapsDesc(arr):
-    positions = [
-   
-    n = len(arr)
+    positions = [ n = len(arr)
     visited = [False for _ in range(n)]
     ans = 0
 
