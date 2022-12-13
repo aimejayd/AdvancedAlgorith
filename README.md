@@ -55,3 +55,20 @@ Number 3
 # Price equeal the given array
 # initializing K aialble 
 # Then print the price
+
+
+Number 7 
+
+ 
+//     #                           PSDEUDO
+
+// # IInitializing the coin n and sum
+// # Starting If Condition
+// # Comparing if sum == o then return 1
+// # Comparing if sum <=>o then return 0
+// # Return count of coins
+// # main functin as interger
+// # initializing i and j as internger
+// # initializing coin
+// #Initializing n equal the size of the coins divide by the size of the coins in the arrary
+// #Pint out the coins n and sum
