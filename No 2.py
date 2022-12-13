@@ -68,3 +68,16 @@ if __name__ == '__main__':
     n = int(input())
 
     staircase(n)
+
+    #                           PSDEUDO
+
+# Importing the function math
+# Importing the function os
+# Importing the function random
+# Importing the function re
+# Importing the function sys
+# Defining the stair functin in n
+# initializing s to #
+# Using for loop in the range 
+# priniting the #
+# stair function in n
