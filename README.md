@@ -54,18 +54,27 @@ return [alice_points, bob_points]
 
 Number 2 
 
-    #                           PSDEUDO
+Here's a possible solution using Python:
 
-# Importing the function math
-# Importing the function os
-# Importing the function random
-# Importing the function re
-# Importing the function sys
-# Defining the stair functin in n
-# initializing s to #
-# Using for loop in the range 
-# priniting the #
-# stair function in n
+def staircase(n):
+    for i in range(1, n + 1):
+        print(' ' * (n - i) + '#' * i)
+
+This solution uses a for loop to iterate from 1 to n. For each number, it prints a string of spaces followed by a string of # characters. The number of spaces decreases from n - 1 down to 0, while the number of # characters increases from 1 to n. This creates the staircase shape
+
+Here's an example of how the solution works when n = 4:
+
+staircase(4)
+
+This will print the following output:
+
+   #
+  ##
+ ###
+
+####
+
+As you can see, the output is a staircase with a base and height of 4, drawn using # symbols and spaces. The last line has no spaces before it, as required by the problem statement.
 
 
 ................................................................................................................................................
@@ -210,6 +219,10 @@ for u, v in graph:
 
 # Return s as the total weight of the minimum spanning tree
 return s
+
+
+The algorithm returns the total weight (s) for the MST. The value of s will be the sum of all edge lengths in the minimum spanning tree, which will be 9 in the case of the example graph above.
+
 
 ................................................................................................................................................
 
